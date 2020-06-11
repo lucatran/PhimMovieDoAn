@@ -1,0 +1,24 @@
+.register {
+  color: white;
+
+  h1 {
+    padding-top: 80px;
+  }
+  .form-group {
+    margin: 30px 0;
+  }
+  .form-button {
+    width: 110px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    outline: none;
+    &:hover {
+      background-color: white;
+      color: #ea5f2d;
+    }
+  }
+}
